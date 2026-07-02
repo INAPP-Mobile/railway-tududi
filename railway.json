@@ -1,0 +1,12 @@
+{
+  "services": [
+    {
+      "type": "container",
+      "name": "tududi",
+      "source": {
+        "type": "image",
+        "image": "chrisvel/tududi:1.1.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "variables": [
+    {
+      "name": "TUDUDI_SESSION_SECRET",
+      "description": "Secret key for encrypting session data. Generate with: openssl rand -hex 64",
+      "defaultValue": "${{secret(64)}}",
+      "isOptional": false
+    },
+    {
+      "name": "TUDUDI_USER_EMAIL",
+      "description": "Email for the default user account",
+      "defaultValue": "admin@yourdomain.com",
+      "isOptional": true
+    },
+    {
+      "name": "TUDUDI_USER_PASSWORD",
+      "description": "Password for the default user account",
+      "defaultValue": "${{secret(16)}}",
+      "isOptional": true
+    },
+    {
+      "name": "TUDUDI_INTERNAL_SSL_ENABLED",
+      "description": "Enable internal SSL (Railway handles HTTPS, set to false)",
+      "defaultValue": "false",
+      "isOptional": true
+    }
+  ]
+}
