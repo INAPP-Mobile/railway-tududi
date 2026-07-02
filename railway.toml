@@ -1,7 +1,6 @@
 [services.tududi]
 # Tududi - Calm, open task management system
 
-[[services.tududi.volumes]]
-# Persistent database volume for task storage
+[services.tududi.volumes]
 source = "tududi-data"
 target = "/usr/src/app/tududi_db"

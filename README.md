@@ -1,6 +1,6 @@
 # Deploy and Host
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/tududi-template-gi-1)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/tududi-template-v2-1)
 
 ![Tududi OG Image](https://raw.githubusercontent.com/INAPP-Mobile/railway-tududi/main/og-image.svg)
 
