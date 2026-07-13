@@ -6,7 +6,13 @@
       "source": {
         "type": "dockerfile",
         "dockerfilePath": "Dockerfile"
-      }
+      },
+      "volumes": [
+        {
+          "name": "tududi-data",
+          "mountPath": "/usr/src/app/tududi_db"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "TUDUDI_SESSION_SECRET": {
+    "value": "${{secret(64)}}",
+    "description": "Secret key for encrypting session data. Required for session security."
+  },
+  "TUDUDI_USER_EMAIL": {
+    "value": "admin@yourdomain.com",
+    "description": "Email for the default user account."
+  },
+  "TUDUDI_USER_PASSWORD": {
+    "value": "${{secret(16)}}",
+    "description": "Password for the default user account. Auto-generated."
+  },
+  "TUDUDI_INTERNAL_SSL_ENABLED": {
+    "value": "false",
+    "description": "Enable internal SSL (Railway handles HTTPS, set to false)."
+  }
+}
