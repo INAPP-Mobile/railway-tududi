@@ -1,4 +1,4 @@
-FROM chrisvel/tududi:1.1.1
+FROM chrisvel/tududi:1.6.9
 
 # Tududi runs on port 3002 by default
 EXPOSE 3002
